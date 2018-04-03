@@ -1,0 +1,76 @@
+.h-contact-header{
+	background: url(../images/header-bg-4.jpg) bottom no-repeat;
+	background-size: cover; 
+}
+.h-contact{
+	margin-top: 60px; 
+}
+.h-contact-msg{
+	width: 33.33%;
+	padding-right: 70px;
+}
+.h-contact-text{
+	margin: 40px 0;
+}
+.h-contact-box{
+	margin: 15px 0;
+}
+.h-contact-box > a{
+	color: #599de2;
+}
+.h-contact-hr{
+	margin: 40px 0;
+	width: 100%;
+	height: 1px;
+	border: 0;
+	background: #ebebeb;
+}
+.h-contact-form{
+	margin: 0 -15px;
+	margin-top: 60px;
+}
+.h-contact-form > h2{
+	margin-bottom: 30px;
+	padding-left: 15px;
+}
+.hcf-text{
+	padding: 10px 15px;
+}
+.hcf-text input{
+	width: 100%;
+	height: 40px;
+	padding: 0 15px;
+	line-height: 40px;
+    border: 1px solid #e8e8e8;
+}
+.hcf-text-50{
+	float: left;
+	width: 50%;
+}
+.hcf-textarea{
+	display: block;
+	width: 100%;
+	height: 200px;
+	padding: 15px;
+    outline: none;
+    resize: none;
+	border: 1px solid #e8e8e8;
+}
+.contact-btn{
+	display: block;
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 15px;
+	border: 0;
+	outline: none;
+	text-align: center;
+	line-height: 40px;
+	background: #3e3e3e;
+	color: #fff;
+}
+@media screen and (max-width: 1200px){
+	.h-contact{
+		width: 100%;
+	}
+}

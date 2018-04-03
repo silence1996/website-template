@@ -1,0 +1,54 @@
+.h-monograph{
+	margin-top: 60px;
+}
+.h-monograph-content{
+	margin-bottom: 60px;
+}
+.hmc-img{
+	max-width: 570px;
+}
+.hmc-img > a{
+	display: block;
+	width: 100%;
+}
+.hmc-img > a > img{
+	width: 100%;
+	vertical-align: middle;
+}
+.hmc-msg{
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.hmc-msg .color-grey span{
+	margin-right: 5px;
+}
+.hmc-msg-tag i a{
+	color: #8f8f8f;
+	-webkit-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.hmc-msg-tag i:not(:last-child):after{
+	content: '·';
+	margin-left: 8px;
+	margin-right: 5px;
+}
+.hmc-msg-tag i:first-child a{
+	color: #3e3e3e;
+}
+.hmc-msg-tag i a:hover{
+	color: #3e3e3e;
+}
+.hmc-msg-tag i:first-child a:hover{
+	color: #8f8f8f;
+}
+.hmc-msg > h2, .hmc-msg > p{
+	margin: 28px 0;
+}
+.h-monograph-content:nth-child(even) .hmc-msg{
+	float: left;
+	padding-left: 0;
+}
+.h-monograph-content:nth-child(even) .hmc-img{
+	float: right;
+}
